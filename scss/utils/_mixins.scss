@@ -1,0 +1,3 @@
+@mixin itemInRow($quontity) {
+    flex-basis: calc((100% - $quontity * 30px) / $quontity);
+}

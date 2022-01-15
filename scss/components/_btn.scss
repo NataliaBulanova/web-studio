@@ -1,0 +1,43 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  min-height: 50px;
+  border: 1px solid transparent;
+  border-radius: var(--btn-radius);
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  transition: var(--transition-param);
+
+  &:hover {
+    background-color: var(--bb-focus);
+  }
+  &:focus {
+    background-color: var(--bb-focus);
+  }
+
+  &__icon-send {
+    margin-left: 10px;
+    
+  }
+  
+}
+
+.hero__btn {
+  margin: 0 auto;
+}
+
+.footer-form__btn {
+  @media screen and (max-width: 1199.98px) {
+    margin-top: 20px;
+  }
+}
